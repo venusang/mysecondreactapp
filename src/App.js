@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import D3 from './components/D3';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <p className="App-intro">
           Hello Codeacademy!
         </p>
+        <p><D3 /></p>
       </div>
     );
   }
